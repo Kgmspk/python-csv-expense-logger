@@ -1,4 +1,3 @@
-# python-csv-expense-logger
 # CLI Expense Tracker
 
 A lightweight Python command-line tool to log daily expenses, validate inputs, view spending totals by category, and export records to a spreadsheet-compatible CSV file.
