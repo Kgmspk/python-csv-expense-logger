@@ -10,6 +10,5 @@ A lightweight Python command-line tool to log daily expenses, validate inputs, v
 ## How to Run
 1. Ensure Python 3 is installed on your machine.
 2. Clone this repository and navigate into the folder:
-   ```bash
-   git clone <your-repo-link>
-   cd <your-repo-folder>
+git clone https://github.com/<your-github-username>/cli-expense-tracker.git
+   cd cli-expense-tracker
