@@ -11,5 +11,5 @@ A lightweight Python command-line tool to log daily expenses, validate inputs, v
 1. Ensure Python 3 is installed on your machine.
 2. Clone this repository and navigate into the folder:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-github-username>/python-csv-expense-logger.git
+   git clone [https://github.com/Kgmspk/python-csv-expense-logger.git](https://github.com/Kgmspk/python-csv-expense-logger.git)
    cd python-csv-expense-logger
