@@ -16,5 +16,5 @@ A command-line Python expense tracker built for **Task 02** of the Python Progra
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Kgmspk/python-csv-expense-logger.git](https://github.com/Kgmspk/python-csv-expense-logger.git)
-   cd python-csv-expense-logger
+   git clone https://github.com/Kgmspk/python-csv-expense-logger.git
+cd python-csv-expense-logger
