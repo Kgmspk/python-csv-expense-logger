@@ -1,16 +1,20 @@
-# Python CSV Expense Logger
+# Expense Tracker (`python-csv-expense-logger`)
 
-A lightweight Python command-line tool to log daily expenses, validate inputs, view spending totals by category, and export records to a spreadsheet-compatible CSV file.
+A command-line Python expense tracker built for **Task 02** of the Python Programming Internship. It records daily expenses, validates inputs, summarizes spending by category, and exports the records into a spreadsheet-ready CSV file.
 
 ## Features
-- **Input Validation:** Verifies dates (`YYYY-MM-DD`) using Python's `datetime` module and ensures amounts are positive numbers before saving.
-- **Dictionary-Based Storage:** Stores each expense row as a Python dictionary and uses `csv.DictWriter` / `csv.DictReader` for clean serialization.
-- **Category Breakdown:** Aggregates and displays total spending per category directly in the terminal.
+- **Dictionary-Based Storage:** Stores each expense entry as a structured dictionary containing `date`, `category`, and `amount`.
+- **Input Validation:** Verifies that dates follow a valid format and amounts are valid positive numbers before saving[cite: 1].
+- **Category Summaries:** Aggregates and displays total spending broken down by category[cite: 1].
+- **CSV Export:** Writes all validated expense records to a local `.csv` file that can be opened directly in Excel, Google Sheets, or LibreOffice Calc[cite: 1].
+
+## Project Structure
+- `project 002.py` — Main Python script handling user input, validation, category aggregation, and CSV generation.
+- `*.csv` — Generated output file containing the recorded expense rows.
 
 ## How to Run
-1. Ensure Python 3 is installed on your machine.
-2. Clone this repository and navigate into the folder:
+
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Kgmspk/python-csv-expense-logger.git](https://github.com/Kgmspk/python-csv-expense-logger.git)
    cd python-csv-expense-logger
-   
